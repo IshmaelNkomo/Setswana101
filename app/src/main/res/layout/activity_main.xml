@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1B75BB"
+    tools:context="com.example.admin.setswana101.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:paddingLeft="45dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <ImageButton
+            android:id="@+id/btnFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="food"
+            android:src="@drawable/button5"
+            android:layout_below="@+id/btnGreetings"
+            android:layout_alignRight="@+id/btnGreetings"
+            android:layout_alignEnd="@+id/btnGreetings"
+            android:layout_marginTop="20dp" />
+
+        <ImageButton
+            android:id="@+id/imgBColors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="color"
+            android:src="@drawable/button1"
+            android:layout_alignTop="@+id/btnGreetings"
+            android:layout_toLeftOf="@+id/btnFamily"
+            android:layout_toStartOf="@+id/btnFamily"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <ImageButton
+            android:id="@+id/btnNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="number"
+            android:src="@drawable/button2"
+            android:layout_alignBottom="@+id/btnGreetings"
+            android:layout_alignLeft="@+id/btnFamily"
+            android:layout_alignStart="@+id/btnFamily"
+            android:layout_marginBottom="10dp" />
+
+        <ImageButton
+            android:id="@+id/btnGreetings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="greet"
+            android:src="@drawable/button4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="46dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginTop="34dp" />
+
+        <ImageButton
+            android:id="@+id/btnFamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:onClick="family"
+            android:src="@drawable/button3"
+            android:layout_below="@+id/btnNumbers"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

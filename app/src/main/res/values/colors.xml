@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#231F20</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorAccent">#FF4081</color>
+    <!--Background color Name-->
+    <color name="tan_background">#FFF7DA</color>
+    <!--color for color-->
+    <color name="bgk_color_color">#ED1C24</color>
+    <!--changing background color of color activity-->
+    <color name="category_Colors">#ED1C24</color>
+    <!--changing background color of Family activity-->
+    <color name="category_Family">#2A388F</color>
+    <!--changing background color of Food activity-->
+    <color name="category_Food">#231F20</color>
+    <!--changing background color of Greetings activity-->
+    <color name="category_Greetings">#9E1E62</color>
+    <!--changing background color of Numbers activity-->
+    <color name="category_Numbers">#91268F</color>
+
+
+
+
+</resources>
